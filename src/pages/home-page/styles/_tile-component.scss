@@ -23,4 +23,12 @@
         opacity: 0.5;
         text-align: center;
     }
+
+    @media (max-width: 834px) {
+        //some code
+    }
+
+    @media (max-width: 375px) {
+        //some code
+    }
 }

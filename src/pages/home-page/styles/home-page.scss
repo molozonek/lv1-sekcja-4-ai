@@ -10,6 +10,14 @@
     max-width: 1136px;
     padding: 159px 64px;
     margin: auto;
+
+    @media (max-width: 834px) {
+        //some code
+    }
+
+    @media (max-width: 375px) {
+        //some code
+    }
 }
 
 .four-areas-container {
@@ -17,4 +25,12 @@
     grid-template-columns: 268px 268px;
     grid-template-rows: auto;
     gap: 31px 24px;
+
+    @media (max-width: 834px) {
+        //some code
+    }
+
+    @media (max-width: 375px) {
+        //some code
+    }
 }
