@@ -8,15 +8,18 @@
     display: flex;
     gap: 0 109px;
     max-width: 1136px;
-    padding: 159px 64px;
-    margin: auto;
+    margin: 159px auto;
 
-    @media (max-width: 834px) {
-        //some code
+    @media (max-width: 1156px) {
+        display: block;
+        max-width: 496px;
+        margin: 247px auto;
     }
 
     @media (max-width: 375px) {
-        //some code
+        display: block;
+        max-width: 343px;
+        margin: 48px auto;
     }
 }
 
@@ -26,11 +29,14 @@
     grid-template-rows: auto;
     gap: 31px 24px;
 
-    @media (max-width: 834px) {
-        //some code
+    @media (max-width: 1156px) {
+        grid-template-columns: 50% 50%;
+        gap: 16px;
+        padding-right: 16px;
     }
 
-    @media (max-width: 375px) {
-        //some code
+    @media (max-width: 520px) {
+        display: block;
+        padding: 0;
     }
 }

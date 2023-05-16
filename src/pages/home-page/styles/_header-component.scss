@@ -14,11 +14,21 @@
         line-height: 24px;
     }
 
-    @media (max-width: 834px) {
-        //some code
+    @media (max-width: 1156px) {
+        max-width: 700px;
+        & &__header {
+            margin: 0 0 16px 0;
+        }
+        & &__param {
+            margin: 0 0 24px 0;
+        }
     }
 
-    @media (max-width: 375px) {
-        //some code
+    @media (max-width: 520px) {
+        & &__header {
+            text-align: left;
+            font-size: 32px;
+            line-height: 40px;
+        }
     }
 }

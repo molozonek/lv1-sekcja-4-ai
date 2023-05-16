@@ -24,11 +24,23 @@
         text-align: center;
     }
 
-    @media (max-width: 834px) {
-        //some code
+    @media (max-width: 1156px) {
+        border-radius: 20px;
+        padding: 20px 17px 20px 14px;
+
+        & &__icon {
+            max-width: 56px;
+            max-height: 56px;
+        }
+
+        & &__param {
+            font-size: 14px;
+            line-height: 22px;
+        }
     }
 
-    @media (max-width: 375px) {
-        //some code
+    @media (max-width: 520px) {
+        margin-bottom: 16px;
+        padding: 20px 22px;
     }
 }
